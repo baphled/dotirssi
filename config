@@ -317,7 +317,7 @@ settings = {
     twirssi_nick_color = "baphled";
     twitter_poll_interval = "120";
     twitter_usernames = "baphled";
-    browse_command = "tmux send-keys -t Interwepts 'T %u' C-m &";
+    browse_command = "tmux send-keys -t Interwepts 'T U %u' C-m &";
   };
 };
 windows = {
