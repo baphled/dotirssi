@@ -317,7 +317,7 @@ settings = {
     twirssi_nick_color = "baphled";
     twitter_poll_interval = "120";
     twitter_usernames = "baphled";
-    browse_command = "tmux send-keys -t Interwepts 'T U %u' C-m &";
+    browse_command = "echo %u && tmux send-keys -t Interwepts 'T U %u' C-m &";
   };
 };
 windows = {
@@ -328,7 +328,7 @@ windows = {
   };
   2 = { name = "twitter"; };
   3 = {
-    name = "bitlbee";
+    name = "&bitlbee";
     items = (
       {
         type = "CHANNEL";
@@ -371,11 +371,11 @@ windows = {
       }
     );
   };
-  7 = { first_line = "1"; lines = "6";  };
+  7 = { name = "hilight"; first_line = "1"; lines = "6"; };
   98 = { name = "nicklist"; sticky = "yes"; };
 };
 mainwindows = {
-  6 = { first_line = "11"; lines = "54"; };
+  1 = { first_line = "11"; lines = "54"; };
   98 = { first_line = "8"; lines = "3"; };
   7 = { first_line = "1"; lines = "7"; };
 };
