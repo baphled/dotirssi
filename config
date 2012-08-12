@@ -367,7 +367,7 @@ windows = {
   8 = { immortal = "yes"; name = "nicklist"; sticky = "yes"; };
 };
 mainwindows = {
-  2 = { first_line = "12"; lines = "42"; };
-  7 = { first_line = "8"; lines = "4"; };
-  8 = { first_line = "1"; lines = "7"; };
+  2 = { first_line = "16"; lines = "46"; };
+  7 = { first_line = "9"; lines = "7"; };
+  8 = { first_line = "1"; lines = "8"; };
 };
